@@ -1,0 +1,786 @@
+/* Section Main CSS */
+.sec-main{
+    padding: 100px 0;
+}
+/* Section Main CSS */
+
+/* section 1 CSS */
+
+.font-weight-normal{
+    font-weight: 500 !important;
+}
+
+/* section 1 CSS */
+
+
+/* section 2 CSS */
+
+#main-page-sec1{
+    background-image: url(../AnshuiyaFoundation/SourceImages/home-banner-bg.png) ;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none !important;
+    color:#dc3545;
+}
+.mt-5{
+    margin-top: 200px !important;
+}
+
+.text-hilight-color{
+    background: linear-gradient(to bottom, #d2000000 70%, #d1b606 30%);
+    width: fit-content;
+}
+#banner2-bg{
+    background-image: url(../AnshuiyaFoundation/SourceImages/banner2.png);
+}
+.main-div{
+    padding: 0 50px;
+}
+
+.div-para{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+
+}
+h1{
+    font-size: 65px;
+}
+.btn-subs-theme{
+    background-color: #e03c33;
+}
+.div-heading{
+    padding-left: 0px;
+}
+.banner-images img{
+    position: absolute;
+
+}
+
+.btn-md{
+    padding: 12px 45px;
+    font-size: 18px;
+}
+
+
+.reg-btn-main{
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+}
+.reg-btn-main:hover{
+    
+    background-color: rgb(47, 17, 76) !important;
+    border-color: rgb(47, 17, 76) !important ;
+    transition: 0.3s ease-in-out;
+}
+
+.opt-txt{
+    color: rgb(129, 123, 123);
+}
+
+.txt-content-sec2{
+    display: flex;
+    margin-top: -70%;
+    margin-left: -25%;
+}
+
+.floating-1{
+    cursor: pointer;
+    display: block;
+    top: 45%;
+    left: 0%;
+}
+.floating-2{
+    cursor: pointer;
+    display: block;
+    top: 21%;
+    left: 55%;
+}
+.floating-3{
+    cursor: pointer;
+    display: block;
+    top: 65%;
+    left: 55%;
+}
+.floating1 { 
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.floating2 { 
+    animation-name: floating2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.floating3 { 
+    animation-name: floating3;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating1 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+@keyframes floating3 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+/* section 1 CSS */
+ 
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* section 2 CSS */
+
+
+.mini-Img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    box-shadow: 0px -4px 16px rgb(0 0 0 / 6%), 4px 8px 16px rgb(0 0 0 / 20%);
+    position: relative;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+.text-box-sec2{
+    position: relative;
+    margin-left: 20px;
+
+}
+
+
+.round-img{
+    display: flex;
+    position: relative;
+    margin-left: 50%;
+    margin-top: -35%;
+    width: 95px;
+    height: 95px;
+}
+
+.sec2-box{
+    margin-top: 110px;
+    margin-bottom: 110px;
+
+}
+
+.main-box1-sec2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background: #FDF0DD;
+    border-radius: 10px;    
+    
+}
+.main-box2-sec2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background: #CAE4F7;
+    border-radius: 10px; 
+}
+.main-box3-sec2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background: #D2F4F4;
+    border-radius: 10px;
+    
+}
+.main-box4-sec2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background: #E0EAFD;
+    border-radius: 10px;
+    
+}
+.main-box5-sec2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background: #fdfbe0;
+    border-radius: 10px;    
+}
+
+
+.href-colour-sec2{
+    text-decoration: none !important;
+    color: red !important;
+
+}
+.b-sec2-anime{
+    transition: .4s;
+}
+.b-sec2-anime:hover{
+    margin-top: 10px;
+}
+
+.main-box1-sec2> .mini-Img{
+    transition: .6s;
+}
+.main-box1-sec2> .mini-Img{
+    margin-top: 10px;
+}
+
+/* section 2 CSS */
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+/* section 3 CSS */
+
+
+.sec-3{
+    padding: 70px 20px 100px 20px;
+}
+
+
+.text-field1-sec3{
+    margin-left: -150px;
+    position: relative;
+    align-items: center;
+    padding-top: 35px;
+}
+.text-field2-sec3{
+
+    padding-left: 15%;
+    position: relative;
+    align-items: center;
+    padding-top: 35px;
+}
+.text-field3-sec3{
+    padding-left: 15%;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 26px;
+}
+.heading-padding-sec3{
+    display: flex;
+    position: relative;
+    left: 1%;
+    align-items: center;
+}
+
+.text-padding-sec3{
+    
+    left: -42;
+    align-items: center;
+}
+.text-p-sec3{
+    position: relative;
+    align-items: center;
+    font-size: 21px;
+    padding-top: 20px;
+    line-height: 26px;
+}
+
+
+/* section 3 CSS */
+
+/* section 4 CSS */
+
+
+.sec-4{
+    background: #EEF4F8;
+    padding: 10px 0;
+}
+
+.heading-section{
+    text-align: center !important;
+}
+
+.heading-main-sec4{
+    align-items: center;
+    margin-top: 50px;
+}
+.span-sec4{
+    position: relative;
+    z-index: 99;
+}
+.heading-sec4{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.heading-all-sec4 h2:before{
+    content: url(../AnshuiyaFoundation/SourceImages/heading.png);
+}
+
+.box1-sec4{
+    box-shadow: 8px 10px 24px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    
+}
+.box1-img-sec4{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.img-size-sec4{
+    width: 100%;
+}
+.box-1-sp-sec4{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.sp-bg-color{
+    background: #dc3545;
+}
+.sp-bg-color2{
+    background: #F6A61D;
+}
+.text-box1-sec4 {
+    padding: 15px 20px;
+    
+}
+.slideBar-box1{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: -50px;
+    z-index: 999;
+    position: relative;
+    margin-bottom: 15px;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.textbox1-sec4{
+    position: relative;
+}
+.bar-percent-box1-sec4{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 15px !important;
+    line-height: 15px;
+    font-weight: 800;
+    color: #10161b;
+    display: flex;
+    align-items: center;
+}
+.bar-percent-box1-sec4 .h2{
+    font-weight: 500;
+    font-size: 15px !important;
+    line-height: 28px;
+}
+.data-count-box1-sec4{
+    position: relative;
+    font-size: 15px !important;
+}
+.title-h3{
+    font-size: 15px;
+    color: #2a283e;
+    /* padding-top: 15px; */
+    display: block;
+}
+.skill-bar-box1-sec4:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(253, 61, 12, 0.2);
+}
+.skill-bar-box1-sec4 {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.skill-bar-inner {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 0;
+    height: 100%;
+    overflow: visible;
+}
+.skill-bar-inner:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: red;
+}
+.link-dark{
+    margin-top: 10px;
+    text-decoration: none !important;
+    color: #2a283e;
+
+}
+h3{
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #818090;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+.text-field-sec4{
+    padding-left: 15%;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 15px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.a-color-sec4{
+
+    color: #FFFFFF !important;
+}
+
+.row1-sec4{
+    padding-top: 15px;
+}
+.sec4-after::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    background-color: var(--white-color);
+}
+.sec4-after{
+    position: relative;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.container-padding-sec4{
+    padding-top: 100px;
+}
+.heading-container-sec4{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+/* section 4 CSS */
+
+
+/* section 5 CSS */
+
+.sec-5{
+    background: #EEF4F8;
+}
+
+.row-padding-sec5{
+    padding-top: 100px;
+}
+
+.box-1-sec-5{
+    box-shadow: 8px 10px 32px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+
+.sp-sec5{
+    color: white;
+    padding: 8px 15px;
+    font-size: 21px;
+    border-radius: 10px;
+}
+
+.bg-theme{
+    background: #dc3545;
+}
+
+.product-name{
+    font: 32px !important;
+    font-weight: 400 !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.link-dark2{
+    color: rgb(41, 38, 38);
+    padding-top: 20px;
+    display: block;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+    /* font-size: 32px; */
+}
+
+
+.reg-btn-main2{
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  
+}
+
+.reg-btn-main2:hover{
+    
+    background-color: rgb(47, 17, 76) !important;
+    border-color: rgb(47, 17, 76) !important ;
+    transition: 0.3s ease-in-out;
+}
+/* section 5 CSS */
+
+/* section 6 CSS */
+
+.text-center{
+    text-align: center !important;
+}
+
+.sec-6{
+    background-image: url(../AnshuiyaFoundation/SourceImages/donat_banner.png);
+}
+
+.text-sec6{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+.text1-sec6{
+    padding-top: 100px;
+}
+
+.heading-container-sec6{
+    color: #FFFFFF;
+    padding-top: 25px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 500;
+}
+.btn-main-sec6{
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  
+}
+
+.btn-main-sec6:hover{
+    
+    background-color: rgb(47, 17, 76) !important;
+    border-color: rgb(47, 17, 76) !important ;
+    transition: 0.3s ease-in-out;
+}
+/* section 6 CSS */
+
+
+/* section 7 CSS */
+.sec7{
+   margin: 100px 0 200px 0;
+}
+
+.container-sec7{
+    height: 350px;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.slide-container{
+    display: flex;
+    width: calc(250px *18);
+    animation: scroll 40s linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes scroll {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *9));
+    }
+    
+}
+
+.slide-image{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    box-shadow: 8px 10px 32px rgba(0, 0, 0, 0.1);
+
+}
+
+.counter::after{
+    content: counter(count);
+    animation: count  5s linear infinite alternate;
+    counter-reset: count 100%;
+}
+
+@keyframes counter{
+    0% {
+      counter-increment: count 0%;
+    }
+
+    50% {
+        counter-increment: count 0%;
+    }
+
+    100% {
+      counter-increment: count 100%;
+    }
+  }
+
+.images-width-sec7{
+    margin: 0 20px 50px 20px;
+}
+
+.slide-img-main{
+    width: 100%;
+    transition: transform 1s;
+
+}
+.slide-img-main:hover{
+    transform: translateZ(20px);
+}
+/* section 7 CSS */
+
+/* section 8 CSS */
+
+.sec-8{
+    z-index: 9;
+}
+
+.main-area-sec8{
+    background: #FFFFFF;
+    box-shadow: -4px -6px 24px rgba(0, 0, 0, 0.08), 8px 12px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 30px 20px;
+    margin-top: -100px;
+}
+
+.items-sec8{
+    text-align: center;
+    border-right: 1px solid #eeeeee;
+}
+
+.items-sec8 h2{
+    line-height: 50px;
+    padding-top: 10px;
+}
+
+/* section 8 CSS */
+
+/* section 9 CSS */
+
+.sec-9{
+    padding: 195px 0 100px 0;
+    background: #F4F7FC;
+    margin-top: -95px;
+}
+
+.footer-area-sec9 p{
+
+    padding-top: 20px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+ul li{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-area2-sec9 a{
+    color: rgb(23, 16, 16);
+}
+
+.footer-area2-sec9 ul li{
+    padding-bottom: 20px;
+}
+.h3-footer-sec9{
+    padding-bottom: 35px;
+}
+/* section 9 CSS */
+
+/* section 10 CSS */
+
+.copyright-sec{
+    background-color: #dc3545;
+    padding: 15px 0;
+}
+
+.left-side-copyright p{
+    color: white;
+}
+.right-side-copyright a{
+    /* text-decoration: none !important; */
+    color: white !important;
+
+}
+
+.right-side-copyright{
+    text-align: end;
+}
+
+/* section 10 CSS */
